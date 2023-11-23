@@ -1,17 +1,20 @@
 <template>
   <!-- <HelloWorld msg="欢迎我吧"/> -->
-  <DepthMonitoring />
+  <!-- <DepthMonitoring /> -->
+  <ListFilter></ListFilter>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import DepthMonitoring from './components/DepthMonitoring.vue'
+// import DepthMonitoring from './components/DepthMonitoring.vue'
+import ListFilter from './components/ListFilter.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    DepthMonitoring
+    // DepthMonitoring
+    ListFilter
   }
 }
 </script>
