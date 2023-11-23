@@ -1,14 +1,17 @@
 <template>
-  <HelloWorld msg="欢迎我吧"/>
+  <!-- <HelloWorld msg="欢迎我吧"/> -->
+  <DepthMonitoring />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import DepthMonitoring from './components/DepthMonitoring.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    DepthMonitoring
   }
 }
 </script>
