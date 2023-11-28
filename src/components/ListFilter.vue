@@ -10,34 +10,34 @@
 
 <script>
 
-export default{
+export default {
     data() {
         return {
             property: 'value',
-            userLIst:[
-                {name:"张三",age:19,sex:'男'},
-                {name:"李四",age:25,sex:'男'},
-                {name:"王五",age:18,sex:'女'},
-                {name:"王11",age:20,sex:'女'},
-                {name:"赵六",age:19,sex:'男'}
+            userLIst: [
+                { name: "张三", age: 19, sex: '男' },
+                { name: "李四", age: 25, sex: '男' },
+                { name: "王五", age: 18, sex: '女' },
+                { name: "王11", age: 20, sex: '女' },
+                { name: "赵六", age: 19, sex: '男' }
             ],
         };
     },
     methods: {
-        filterUser(){
+        filterUser() {
             this.userLIst = this.userLIst.filter(
-                i=>{ return i.age<=20 }
+                i => { return i.age <= 20 }
             )
         }
     },
-    computed:{
-        usercpmputed(){
+    computed: {
+        usercpmputed() {
             /* return this.userLIst.filter(p => {
                 return p.age<=20
             }) */
 
             const arr = this.userLIst
-            arr.sort((a,b)=>{return a.age-b.age})
+            arr.sort((a, b) => { return a.age - b.age })
             return arr;
         }
     }
