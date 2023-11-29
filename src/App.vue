@@ -2,14 +2,16 @@
   <!-- <HelloWorld msg="欢迎我吧"/> -->
   <!-- <DepthMonitoring /> -->
   <!-- <ListFilter></ListFilter> -->
-  <collectFormData></collectFormData>
+  <!-- <collectFormData></collectFormData> -->
+  <filterss></filterss>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import DepthMonitoring from './components/DepthMonitoring.vue'
 // import ListFilter from './components/ListFilter.vue'
-import collectFormData from './components/collectFormData.vue'
+// import collectFormData from './components/collectFormData.vue'
+import filterss from './components/dateFilter.vue'
 
 export default {
   name: 'App',
@@ -17,7 +19,8 @@ export default {
     // HelloWorld,
     // DepthMonitoring
     // ListFilter
-    collectFormData
+    // collectFormData
+    filterss
   }
 }
 </script>
