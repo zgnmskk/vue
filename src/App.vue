@@ -3,7 +3,8 @@
   <!-- <DepthMonitoring /> -->
   <!-- <ListFilter></ListFilter> -->
   <!-- <collectFormData></collectFormData> -->
-  <filterss></filterss>
+  <!-- <filterss></filterss> -->
+  <vueInstruct></vueInstruct>
 </template>
 
 <script>
@@ -11,7 +12,8 @@
 // import DepthMonitoring from './components/DepthMonitoring.vue'
 // import ListFilter from './components/ListFilter.vue'
 // import collectFormData from './components/collectFormData.vue'
-import filterss from './components/dateFilter.vue'
+// import filterss from './components/dateFilter.vue'
+import vueInstruct from './components/vueInstruct.vue'
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     // DepthMonitoring
     // ListFilter
     // collectFormData
-    filterss
+    // filterss
+    vueInstruct
   }
 }
 </script>
